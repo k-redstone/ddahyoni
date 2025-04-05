@@ -1,23 +1,23 @@
+'use client'
+
 import Image from 'next/image'
 import { notFound } from 'next/navigation'
+import { use } from 'react'
 
 import { Badge } from '@/components/ui/badge'
 import { Card, CardContent } from '@/components/ui/card'
 import totalMatchData from '@/constants/matchData'
 import { GAPageView } from '@/hooks/useGAPageViesw'
 
-export default function MatchDetailPage({
-  params,
-}: {
-  params: { id: string }
-}) {
-  const match = totalMatchData.find((data) => data.id === params.id)
+type Params = Promise<{ matchId: string }>
+
+export default function MatchDetailPage(props: { params: Params }) {
+  const params = use(props.params)
+  const match = totalMatchData.find((data) => data.id === params.matchId)
 
   if (!match) {
     notFound()
   }
-
-  console.log(match)
 
   return (
     <div className="container mx-auto py-6">
