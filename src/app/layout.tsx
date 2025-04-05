@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 
+import { GoogleAnalytics } from '@next/third-parties/google'
 import { Inter } from 'next/font/google'
 
 import './globals.css'
@@ -20,6 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className}`}>
+        <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />
         <div className="flex min-h-screen flex-col">
           <Navbar />
           <main className="flex-1">{children}</main>
