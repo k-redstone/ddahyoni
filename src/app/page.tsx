@@ -85,8 +85,7 @@ export default function Home() {
               <TableRow>
                 <TableHead className="w-[80px] text-center">순위</TableHead>
                 <TableHead>팀</TableHead>
-                <TableHead className="text-center">승/패</TableHead>
-                <TableHead className="text-center">세트</TableHead>
+                <TableHead className="text-center">세트 승/패</TableHead>
                 <TableHead className="text-center">승점</TableHead>
               </TableRow>
             </TableHeader>
@@ -103,9 +102,6 @@ export default function Home() {
                     <div className="flex items-center gap-2">
                       {team.teamName}
                     </div>
-                  </TableCell>
-                  <TableCell>
-                    {team.matchWins}-{team.matchLosses}
                   </TableCell>
                   <TableCell>
                     {team.setWins}-{team.setLosses}

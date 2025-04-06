@@ -242,9 +242,11 @@ export default function MatchDetailPage(props: { params: Params }) {
                                   {`${player.kill} / ${player.death} / ${player.assist}`}
                                 </div>
                                 <div className="text-center">
-                                  {player.damage}
+                                  {player.damage.toLocaleString('ko-KR')}
                                 </div>
-                                <div className="text-center">{player.gold}</div>
+                                <div className="text-center">
+                                  {player.gold.toLocaleString('ko-KR')}
+                                </div>
                               </div>
                             )
                           })}
@@ -288,8 +290,12 @@ export default function MatchDetailPage(props: { params: Params }) {
                               <div className="text-center">
                                 {`${player.kill} / ${player.death} / ${player.assist}`}
                               </div>
-                              <div className="text-center">{player.damage}</div>
-                              <div className="text-center">{player.gold}</div>
+                              <div className="text-center">
+                                {player.damage.toLocaleString('ko-KR')}
+                              </div>
+                              <div className="text-center">
+                                {player.gold.toLocaleString('ko-KR')}
+                              </div>
                             </div>
                           ))}
                         </div>

@@ -4,8 +4,8 @@ const totalMatchData: IMatch[] = [
   {
     id: 'm1',
     matchNumber: 1,
-    blueTeam: 'TEAM 큐베',
-    redTeam: 'TEAM 뱅',
+    blueTeam: '돼굴단',
+    redTeam: '노코멘트',
     blueTeamScore: 1,
     redTeamScore: 2,
     date: '2025-04-06',
@@ -15,7 +15,7 @@ const totalMatchData: IMatch[] = [
       {
         id: 's1',
         setNumber: 1,
-        winner: 'TEAM 큐베',
+        winner: '돼굴단',
         blueTeamBans: ['Varus', 'Ahri', 'Nautilus', 'Galio', 'Taliyah'],
         redTeamBans: ['Lulu', 'Draven', 'Sejuani', 'Orianna', 'Viktor'],
         blueTeamPicks: ['Vi', 'Caitlyn', 'Seraphine', 'Kassadin', 'Ambessa'],
@@ -137,7 +137,7 @@ const totalMatchData: IMatch[] = [
       {
         id: 's2',
         setNumber: 2,
-        winner: 'TEAM 뱅',
+        winner: '노코멘트',
         blueTeamBans: ['Varus', 'Ahri', 'Nautilus', 'Galio', 'Malzahar'],
         redTeamBans: ['Lulu', 'Draven', 'Nocturne', 'Sion', 'Viktor'],
         blueTeamPicks: ['MonkeyKing', 'Yuumi', 'Sivir', 'Rumble', 'Sylas'],
@@ -259,7 +259,7 @@ const totalMatchData: IMatch[] = [
       {
         id: 's3',
         setNumber: 3,
-        winner: 'TEAM 뱅',
+        winner: '노코멘트',
         blueTeamBans: ['Varus', 'Ahri', 'Nautilus', 'Jinx', 'Kaisa'],
         redTeamBans: ['Lulu', 'Draven', 'Nocturne', 'Viktor', 'Orianna'],
         blueTeamPicks: [
@@ -389,18 +389,18 @@ const totalMatchData: IMatch[] = [
   {
     id: 'm2',
     matchNumber: 2,
-    blueTeam: 'TEAM 앰비션',
-    redTeam: 'TEAM 플레임',
-    blueTeamScore: 2,
+    blueTeam: '남성',
+    redTeam: '상체파괴자',
+    blueTeamScore: 3,
     redTeamScore: 0,
     date: '2025-04-06',
-    completed: false,
+    completed: true,
     stage: '리그전',
     sets: [
       {
         id: 's4',
         setNumber: 1,
-        winner: 'TEAM 앰비션',
+        winner: '남성',
         blueTeamBans: ['Ambessa', 'Lissandra', 'Vi', 'Orianna', 'Taliyah'],
         redTeamBans: ['Tristana', 'Yone', 'Nautilus', 'Alistar', 'Braum'],
         blueTeamPicks: ['Gwen', 'Jhin', 'Corki', 'Mordekaiser', 'Blitzcrank'],
@@ -522,7 +522,7 @@ const totalMatchData: IMatch[] = [
       {
         id: 's5',
         setNumber: 2,
-        winner: 'TEAM 앰비션',
+        winner: '남성',
         blueTeamBans: ['Ambessa', 'Vi', 'Ashe', 'Rumble', 'Kennen'],
         redTeamBans: ['Yone', 'Nautilus', '', 'Malphite', 'Braum'],
         blueTeamPicks: ['Hwei', 'XinZhao', 'MissFortune', 'Rakan', 'DrMundo'],
@@ -644,7 +644,7 @@ const totalMatchData: IMatch[] = [
       {
         id: 's6',
         setNumber: 3,
-        winner: 'TEAM 앰비션',
+        winner: '남성',
         blueTeamBans: ['Ambessa', 'Ashe', 'Rumble', 'Nami', 'Braum'],
         redTeamBans: ['Yone', 'Nautilus', 'Zyra', 'Garen', 'Seraphine'],
         blueTeamPicks: ['Vi', 'Caitlyn', 'Orianna', 'Ornn', 'Galio'],
@@ -768,8 +768,8 @@ const totalMatchData: IMatch[] = [
   {
     id: 'm3',
     matchNumber: 3,
-    blueTeam: 'TEAM 플레임',
-    redTeam: 'TEAM 매드라이프',
+    blueTeam: '상체파괴자',
+    redTeam: '치지직 프로스트',
     blueTeamScore: 0,
     redTeamScore: 0,
     date: '2025-04-07',
@@ -780,8 +780,8 @@ const totalMatchData: IMatch[] = [
   {
     id: 'm4',
     matchNumber: 4,
-    blueTeam: 'TEAM 뱅',
-    redTeam: 'TEAM 앰비션',
+    blueTeam: '노코멘트',
+    redTeam: '남성',
     blueTeamScore: 0,
     redTeamScore: 0,
     date: '2025-04-07',
@@ -792,8 +792,8 @@ const totalMatchData: IMatch[] = [
   {
     id: 'm5',
     matchNumber: 5,
-    blueTeam: 'TEAM 매드라이프',
-    redTeam: 'TEAM 앰비션',
+    blueTeam: '치지직 프로스트',
+    redTeam: '남성',
     blueTeamScore: 0,
     redTeamScore: 0,
     date: '2025-04-08',
@@ -804,8 +804,8 @@ const totalMatchData: IMatch[] = [
   {
     id: 'm6',
     matchNumber: 6,
-    blueTeam: 'TEAM 플레임',
-    redTeam: 'TEAM 큐베',
+    blueTeam: '상체파괴자',
+    redTeam: '돼굴단',
     blueTeamScore: 0,
     redTeamScore: 0,
     date: '2025-04-08',
@@ -816,8 +816,8 @@ const totalMatchData: IMatch[] = [
   {
     id: 'm7',
     matchNumber: 7,
-    blueTeam: 'TEAM 뱅',
-    redTeam: 'TEAM 플레임',
+    blueTeam: '노코멘트',
+    redTeam: '상체파괴자',
     blueTeamScore: 0,
     redTeamScore: 0,
     date: '2025-04-09',
@@ -828,8 +828,8 @@ const totalMatchData: IMatch[] = [
   {
     id: 'm8',
     matchNumber: 8,
-    blueTeam: 'TEAM 큐베',
-    redTeam: 'TEAM 매드라이프',
+    blueTeam: '돼굴단',
+    redTeam: '치지직 프로스트',
     blueTeamScore: 0,
     redTeamScore: 0,
     date: '2025-04-09',
@@ -840,8 +840,8 @@ const totalMatchData: IMatch[] = [
   {
     id: 'm9',
     matchNumber: 9,
-    blueTeam: 'TEAM 큐베',
-    redTeam: 'TEAM 앰비션',
+    blueTeam: '돼굴단',
+    redTeam: '남성',
     blueTeamScore: 0,
     redTeamScore: 0,
     date: '2025-04-10',
@@ -852,8 +852,8 @@ const totalMatchData: IMatch[] = [
   {
     id: 'm10',
     matchNumber: 10,
-    blueTeam: 'TEAM 뱅',
-    redTeam: 'TEAM 매드라이프',
+    blueTeam: '노코멘트',
+    redTeam: '치지직 프로스트',
     blueTeamScore: 0,
     redTeamScore: 0,
     date: '2025-04-10',

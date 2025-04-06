@@ -3,7 +3,7 @@ import { ITeam } from '@/types'
 export const teams: ITeam[] = [
   {
     id: 't1',
-    teamName: 'TEAM 플레임',
+    teamName: '상체파괴자',
     matchWins: 0,
     matchLosses: 1,
     setWins: 0,
@@ -44,7 +44,7 @@ export const teams: ITeam[] = [
   },
   {
     id: 't2',
-    teamName: 'TEAM 앰비션',
+    teamName: '남성',
     matchWins: 1,
     matchLosses: 0,
     setWins: 3,
@@ -85,7 +85,7 @@ export const teams: ITeam[] = [
   },
   {
     id: 't3',
-    teamName: 'TEAM 큐베',
+    teamName: '돼굴단',
     matchWins: 0,
     matchLosses: 1,
     setWins: 1,
@@ -126,7 +126,7 @@ export const teams: ITeam[] = [
   },
   {
     id: 't4',
-    teamName: 'TEAM 뱅',
+    teamName: '노코멘트',
     matchWins: 1,
     matchLosses: 0,
     setWins: 2,
@@ -167,7 +167,7 @@ export const teams: ITeam[] = [
   },
   {
     id: 't5',
-    teamName: 'TEAM 매드라이프',
+    teamName: '치지직 프로스트',
     matchWins: 0,
     matchLosses: 0,
     setWins: 0,
