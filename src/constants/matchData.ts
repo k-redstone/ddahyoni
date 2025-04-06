@@ -7,9 +7,9 @@ const totalMatchData: IMatch[] = [
     blueTeam: 'TEAM 큐베',
     redTeam: 'TEAM 뱅',
     blueTeamScore: 1,
-    redTeamScore: 1,
+    redTeamScore: 2,
     date: '2025-04-06',
-    completed: false,
+    completed: true,
     stage: '리그전',
     sets: [
       {
