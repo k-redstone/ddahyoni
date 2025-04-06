@@ -140,8 +140,8 @@ const totalMatchData: IMatch[] = [
         winner: '',
         blueTeamBans: ['Varus', 'Ahri', 'Nautilus', 'Galio', 'Malzahar'],
         redTeamBans: ['Lulu', 'Draven', 'Nocturne', 'Sion', 'Viktor'],
-        blueTeamPicks: ['Wukong', 'Yuumi', 'Sivir', 'Rumble', 'Sylas'],
-        redTeamPicks: ['Sejuani', 'Ezreal', 'Maokai', 'Yone', 'Aurelion Sol'],
+        blueTeamPicks: ['MonkeyKing', 'Yuumi', 'Sivir', 'Rumble', 'Sylas'],
+        redTeamPicks: ['Sejuani', 'Ezreal', 'Maokai', 'Yone', 'AurelionSol'],
         blueTeamKills: 0,
         redTeamKills: 0,
         blueTeamDeath: 0,
@@ -164,7 +164,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '네클릿',
-            champion: 'Wukong',
+            champion: 'MonkeyKing',
             role: 'JG',
             kill: 0,
             death: 0,
@@ -226,7 +226,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '인간젤리',
-            champion: 'Aurelion Sol',
+            champion: 'AurelionSol',
             role: 'MID',
             kill: 0,
             death: 0,
