@@ -260,7 +260,7 @@ const totalMatchData: IMatch[] = [
         id: 's3',
         setNumber: 3,
         winner: '',
-        blueTeamBans: ['Varus', 'Ahri', 'Nautilus', 'Jinx', "Kai'Sa"],
+        blueTeamBans: ['Varus', 'Ahri', 'Nautilus', 'Jinx', 'Kaisa'],
         redTeamBans: ['Lulu', 'Draven', 'Nocturne', 'Viktor', 'Orianna'],
         blueTeamPicks: [
           'MissFortune',
