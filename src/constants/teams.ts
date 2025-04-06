@@ -87,7 +87,7 @@ export const teams: ITeam[] = [
     id: 't3',
     teamName: 'TEAM 큐베',
     matchWins: 0,
-    matchLosses: 0,
+    matchLosses: 1,
     setWins: 1,
     setLosses: 2,
     points: 1,
