@@ -123,7 +123,7 @@ export default function Home() {
       <Card>
         <CardContent className="pt-4">
           <h2 className="mb-3 text-xl font-bold">
-            리그전 전체 경기 (총 24경기 - 매치당 3세트 필수 진행)
+            리그전 전체 경기 (총 10매치 - 매치당 3세트 필수 진행)
           </h2>
 
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
