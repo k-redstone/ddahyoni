@@ -389,8 +389,8 @@ const totalMatchData: IMatch[] = [
   {
     id: 'm2',
     matchNumber: 2,
-    blueTeam: 'TEAM 플레임',
-    redTeam: 'TEAM 앰비션',
+    blueTeam: 'TEAM 앰비션',
+    redTeam: 'TEAM 플레임',
     blueTeamScore: 0,
     redTeamScore: 0,
     date: '2025-04-06',
