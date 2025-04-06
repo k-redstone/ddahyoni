@@ -94,13 +94,16 @@ export default function MatchDetailPage(props: { params: Params }) {
                                 key={crypto.randomUUID()}
                                 className="relative"
                               >
-                                <Image
-                                  src={`https://ddragon.leagueoflegends.com/cdn/15.7.1/img/champion/${champName}.png`}
-                                  alt={champName}
-                                  width={24}
-                                  height={24}
-                                  className="rounded-md opacity-80"
-                                />
+                                {champName !== '' && (
+                                  <Image
+                                    src={`https://ddragon.leagueoflegends.com/cdn/15.7.1/img/champion/${champName}.png`}
+                                    alt={champName}
+                                    width={24}
+                                    height={24}
+                                    className="rounded-md opacity-80"
+                                  />
+                                )}
+
                                 <div className="absolute inset-0 flex items-center justify-center">
                                   <div className="bg-destructive h-0.5 w-full rotate-45"></div>
                                 </div>
@@ -146,13 +149,15 @@ export default function MatchDetailPage(props: { params: Params }) {
                                 key={crypto.randomUUID()}
                                 className="relative"
                               >
-                                <Image
-                                  src={`https://ddragon.leagueoflegends.com/cdn/15.7.1/img/champion/${champName}.png`}
-                                  alt={champName}
-                                  width={24}
-                                  height={24}
-                                  className="rounded-md opacity-80"
-                                />
+                                {champName !== '' && (
+                                  <Image
+                                    src={`https://ddragon.leagueoflegends.com/cdn/15.7.1/img/champion/${champName}.png`}
+                                    alt={champName}
+                                    width={24}
+                                    height={24}
+                                    className="rounded-md opacity-80"
+                                  />
+                                )}
                                 <div className="absolute inset-0 flex items-center justify-center">
                                   <div className="bg-destructive h-0.5 w-full rotate-45"></div>
                                 </div>
