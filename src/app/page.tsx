@@ -19,7 +19,6 @@ import { GAPageView } from '@/hooks/useGAPageViesw'
 
 export default function Home() {
   const sortedTeams = [...teams].sort((a, b) => b.points - a.points)
-
   return (
     <div className="container mx-auto py-6">
       {/* 헤더 */}
