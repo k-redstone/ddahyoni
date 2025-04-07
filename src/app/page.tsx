@@ -143,7 +143,9 @@ export default function Home() {
                       #{match.matchNumber} • {match.date}
                     </div>
                     <div className="text-xs">
-                      {match.completed ? (
+                      {match.progress ? (
+                        <span className="text-red-500">진행중</span>
+                      ) : match.completed ? (
                         <span className="text-green-600">완료</span>
                       ) : (
                         <span className="text-blue-600">예정</span>

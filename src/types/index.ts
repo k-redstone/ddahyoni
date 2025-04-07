@@ -65,6 +65,7 @@ interface IMatch {
   redTeamScore: number
   date: string
   completed: boolean
+  progress: boolean
   stage: string
   sets: ISet[]
 }
