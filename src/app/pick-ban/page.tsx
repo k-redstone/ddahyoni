@@ -81,6 +81,7 @@ export default function TeamStatsPage() {
                           width={24}
                           height={24}
                           className="rounded-md"
+                          unoptimized
                         />
                         <div className="flex-1">
                           <div className="flex justify-between">
@@ -124,6 +125,7 @@ export default function TeamStatsPage() {
                                 width={24}
                                 height={24}
                                 className="rounded-md"
+                                unoptimized
                               />
                               <div className="absolute inset-0 flex items-center justify-center">
                                 <div className="bg-destructive h-0.5 w-full rotate-45"></div>

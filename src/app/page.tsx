@@ -72,6 +72,7 @@ export default function Home() {
                         width={24}
                         height={24}
                         className="rounded-md"
+                        unoptimized
                       />
                       <span className="text-sm">{player.name}</span>
                     </div>

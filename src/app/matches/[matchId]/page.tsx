@@ -101,6 +101,7 @@ export default function MatchDetailPage(props: { params: Params }) {
                                     width={40}
                                     height={40}
                                     className="rounded-md opacity-80"
+                                    unoptimized
                                   />
                                 )}
 
@@ -125,6 +126,7 @@ export default function MatchDetailPage(props: { params: Params }) {
                                 width={40}
                                 height={40}
                                 className="rounded-md"
+                                unoptimized
                               />
                             ))}
                           </div>
@@ -156,6 +158,7 @@ export default function MatchDetailPage(props: { params: Params }) {
                                     width={40}
                                     height={40}
                                     className="rounded-md opacity-80"
+                                    unoptimized
                                   />
                                 )}
                                 <div className="absolute inset-0 flex items-center justify-center">
@@ -179,6 +182,7 @@ export default function MatchDetailPage(props: { params: Params }) {
                                 width={40}
                                 height={40}
                                 className="rounded-md"
+                                unoptimized
                               />
                             ))}
                           </div>
@@ -236,6 +240,7 @@ export default function MatchDetailPage(props: { params: Params }) {
                                     width={24}
                                     height={24}
                                     className="rounded-md"
+                                    unoptimized
                                   />
                                 </div>
                                 <div className="text-center">
@@ -285,6 +290,7 @@ export default function MatchDetailPage(props: { params: Params }) {
                                   width={24}
                                   height={24}
                                   className="rounded-md"
+                                  unoptimized
                                 />
                               </div>
                               <div className="text-center">
