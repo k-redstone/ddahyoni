@@ -1165,7 +1165,7 @@ const totalMatchData: IMatch[] = [
         winner: '',
         blueTeamBans: ['Viktor', 'Hwei', 'Zyra', 'Galio', 'Rell'],
         redTeamBans: ['Ambessa', 'Ezreal', 'Lucian', 'Kalista', 'Leona'],
-        blueTeamPicks: ['Yone', 'Vi', 'Ahri', 'KaiSa', 'Nautilus'],
+        blueTeamPicks: ['Yone', 'Vi', 'Ahri', 'Kaisa', 'Nautilus'],
         redTeamPicks: ['Gwen', 'Corki', 'Sion', 'Tristana', 'Rakan'],
         blueTeamKills: 0,
         redTeamKills: 0,
@@ -1209,7 +1209,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '뱅',
-            champion: 'KaiSa',
+            champion: 'Kaisa',
             role: 'ADC',
             kill: 0,
             death: 0,
