@@ -29,7 +29,7 @@ export default function TeamStatsPage() {
           value={selectedTeamName}
           onValueChange={setSelectedTeamName}
         >
-          <SelectTrigger className="w-[180px]">
+          <SelectTrigger className="w-[180px] cursor-pointer">
             <SelectValue placeholder="Select Team" />
           </SelectTrigger>
           <SelectContent>
@@ -37,6 +37,7 @@ export default function TeamStatsPage() {
               <SelectItem
                 key={team.id}
                 value={team.teamName}
+                className="cursor-pointer"
               >
                 <div className="flex items-center gap-2">{team.teamName}</div>
               </SelectItem>
@@ -54,13 +55,13 @@ export default function TeamStatsPage() {
           <TabsList className="mb-4 w-full">
             <TabsTrigger
               value="picks"
-              className="flex-1"
+              className="flex-1 cursor-pointer"
             >
               Most pick
             </TabsTrigger>
             <TabsTrigger
               value="bans"
-              className="flex-1"
+              className="flex-1 cursor-pointer"
             >
               Targeted Bans
             </TabsTrigger>
