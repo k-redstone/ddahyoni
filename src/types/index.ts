@@ -10,6 +10,7 @@ interface IPlayer {
   name: string
   role: RoleUnion
   profileUrl: string
+  hash: string
 }
 
 interface ITeam {

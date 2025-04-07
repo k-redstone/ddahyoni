@@ -47,6 +47,14 @@ export default function Home() {
               >
                 <div className="mb-2 flex items-center gap-2">
                   <h3 className="font-bold">{team.teamName}</h3>
+                  <Link
+                    href={`https://mul.live/${team.players.map((player) => player.hash).join('/')}`}
+                    prefetch={false}
+                    target="_blank"
+                    className="text-blue-600"
+                  >
+                    <span className="text-xs">팀 멀티뷰</span>
+                  </Link>
                 </div>
 
                 <div className="space-y-1">
