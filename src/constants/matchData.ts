@@ -1285,7 +1285,7 @@ const totalMatchData: IMatch[] = [
         id: 's11',
         setNumber: 2,
         winner: '',
-        blueTeamBans: ['Viktor', 'Hwei', 'Orianna', 'Dr. Mundo', 'Mordekaiser'],
+        blueTeamBans: ['Viktor', 'Hwei', 'Orianna', 'DrMundo', 'Mordekaiser'],
         redTeamBans: ['Ambessa', 'Ezreal', 'Lucian', 'Veigar', 'Galio'],
         blueTeamPicks: ['Braum', 'Nocturne', 'Xayah', 'AurelionSol', 'Gnar'],
         redTeamPicks: ['Leona', 'Jhin', 'MonkeyKing', 'Azir', 'Garen'],
