@@ -13,6 +13,7 @@ import {
 } from '@/components/ui/select'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { teams } from '@/constants/teams'
+import { GAPageView } from '@/hooks/useGAPageViesw'
 import { analyzeMatches } from '@/lib/analyzeMatches'
 
 export default function TeamStatsPage() {
@@ -153,6 +154,7 @@ export default function TeamStatsPage() {
           <span>아직 경기결과가 없습니다.</span>
         </div>
       )}
+      <GAPageView />
     </div>
   )
 }
