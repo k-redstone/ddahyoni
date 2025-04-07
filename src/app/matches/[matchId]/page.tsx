@@ -98,8 +98,8 @@ export default function MatchDetailPage(props: { params: Params }) {
                                   <Image
                                     src={`https://ddragon.leagueoflegends.com/cdn/15.7.1/img/champion/${champName}.png`}
                                     alt={champName}
-                                    width={24}
-                                    height={24}
+                                    width={40}
+                                    height={40}
                                     className="rounded-md opacity-80"
                                   />
                                 )}
@@ -122,8 +122,8 @@ export default function MatchDetailPage(props: { params: Params }) {
                                 key={crypto.randomUUID()}
                                 src={`https://ddragon.leagueoflegends.com/cdn/15.7.1/img/champion/${champName}.png`}
                                 alt={champName}
-                                width={24}
-                                height={24}
+                                width={40}
+                                height={40}
                                 className="rounded-md"
                               />
                             ))}
@@ -153,8 +153,8 @@ export default function MatchDetailPage(props: { params: Params }) {
                                   <Image
                                     src={`https://ddragon.leagueoflegends.com/cdn/15.7.1/img/champion/${champName}.png`}
                                     alt={champName}
-                                    width={24}
-                                    height={24}
+                                    width={40}
+                                    height={40}
                                     className="rounded-md opacity-80"
                                   />
                                 )}
@@ -176,8 +176,8 @@ export default function MatchDetailPage(props: { params: Params }) {
                                 key={crypto.randomUUID()}
                                 src={`https://ddragon.leagueoflegends.com/cdn/15.7.1/img/champion/${champName}.png`}
                                 alt={champName}
-                                width={24}
-                                height={24}
+                                width={40}
+                                height={40}
                                 className="rounded-md"
                               />
                             ))}
