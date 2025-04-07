@@ -30,12 +30,12 @@ export default function Navbar() {
           >
             매치기록
           </Link>
-          {/* <Link
-            href="/players"
+          <Link
+            href="/pick-ban"
             className="hover:text-primary text-sm font-medium transition-colors"
           >
-            Players
-          </Link> */}
+            팀별 픽&밴
+          </Link>
           {/* <Link
             href="/team-stats"
             className="hover:text-primary text-sm font-medium transition-colors"
@@ -77,13 +77,13 @@ export default function Navbar() {
                 >
                   매치기록
                 </Link>
-                {/* <Link
-                  href="/players"
+                <Link
+                  href="/pick-ban"
                   className="hover:text-primary text-sm font-medium transition-colors"
                 >
-                  Players
+                  팀별 픽&밴
                 </Link>
-                <Link
+                {/* <Link
                   href="/team-stats"
                   className="hover:text-primary text-sm font-medium transition-colors"
                 >

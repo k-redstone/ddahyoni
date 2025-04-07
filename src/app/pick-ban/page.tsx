@@ -62,7 +62,7 @@ export default function TeamStatsPage() {
               value="bans"
               className="flex-1"
             >
-              Most banned
+              Targeted Bans
             </TabsTrigger>
           </TabsList>
 
