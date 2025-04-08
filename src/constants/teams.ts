@@ -5,10 +5,10 @@ export const teams: ITeam[] = [
     id: 't1',
     teamName: '상체파괴자',
     matchWins: 0,
-    matchLosses: 2,
-    setWins: 1,
+    matchLosses: 3,
+    setWins: 2,
     setLosses: 7,
-    points: 1,
+    points: 2,
     players: [
       {
         name: '플레임',
@@ -96,10 +96,10 @@ export const teams: ITeam[] = [
   {
     id: 't3',
     teamName: '돼굴단',
-    matchWins: 0,
+    matchWins: 1,
     matchLosses: 1,
     setWins: 3,
-    setLosses: 2,
+    setLosses: 3,
     points: 3,
     players: [
       {
