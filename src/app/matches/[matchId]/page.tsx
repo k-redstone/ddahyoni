@@ -63,7 +63,12 @@ export default function MatchDetailPage(props: { params: Params }) {
               <Card key={crypto.randomUUID()}>
                 <CardContent className="pt-4">
                   <h2 className="mb-3 text-lg font-bold">
-                    Set {set.setNumber}
+                    <div className="flex items-center gap-2">
+                      <span>Set {set.setNumber}</span>
+                      <span className="text-muted-foreground text-xs">
+                        Duration {set.duration}
+                      </span>
+                    </div>
                   </h2>
 
                   <div className="grid gap-4 md:grid-cols-2">
