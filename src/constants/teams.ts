@@ -50,11 +50,11 @@ export const teams: ITeam[] = [
   {
     id: 't2',
     teamName: '남성',
-    matchWins: 2,
+    matchWins: 3,
     matchLosses: 0,
-    setWins: 7,
+    setWins: 8,
     setLosses: 1,
-    points: 7,
+    points: 8,
     players: [
       {
         name: '룩삼',
@@ -189,9 +189,9 @@ export const teams: ITeam[] = [
     id: 't5',
     teamName: '치지직 프로스트',
     matchWins: 1,
-    matchLosses: 0,
+    matchLosses: 1,
     setWins: 2,
-    setLosses: 3,
+    setLosses: 4,
     points: 2,
     players: [
       {
