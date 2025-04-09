@@ -4,11 +4,11 @@ export const teams: ITeam[] = [
   {
     id: 't1',
     teamName: '상체파괴자',
-    matchWins: 0,
+    matchWins: 1,
     matchLosses: 3,
-    setWins: 3,
+    setWins: 4,
     setLosses: 8,
-    points: 3,
+    points: 4,
     players: [
       {
         name: '플레임',
@@ -143,9 +143,9 @@ export const teams: ITeam[] = [
     id: 't4',
     teamName: '노코멘트',
     matchWins: 1,
-    matchLosses: 1,
+    matchLosses: 2,
     setWins: 4,
-    setLosses: 4,
+    setLosses: 5,
     points: 4,
     players: [
       {
