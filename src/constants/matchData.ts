@@ -2934,7 +2934,7 @@ const totalMatchData: IMatch[] = [
         setNumber: 1,
         winner: '',
         blueTeamBans: ['Xerath', 'Kalista', 'Blitzcrank', 'Varus', 'Ashe'],
-        redTeamBans: ['Draven', 'Ryze', "Kog'Maw", 'Olaf', 'Orianna'],
+        redTeamBans: ['Draven', 'Ryze', 'KogMaw', 'Olaf', 'Orianna'],
         blueTeamPicks: [
           'Nocturne',
           'Xayah',
