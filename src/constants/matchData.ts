@@ -2519,7 +2519,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '헤징',
-            champion: 'ZigAhrigs',
+            champion: 'Ahri',
             role: 'MID',
             kill: 0,
             death: 0,
