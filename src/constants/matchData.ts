@@ -2681,7 +2681,7 @@ const totalMatchData: IMatch[] = [
     blueTeamScore: 3,
     redTeamScore: 0,
     date: '2025-04-09',
-    completed: false,
+    completed: true,
     progress: false,
     stage: '리그전',
     sets: [
