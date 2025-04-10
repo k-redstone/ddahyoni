@@ -3197,10 +3197,10 @@ const totalMatchData: IMatch[] = [
         id: 's26',
         setNumber: 2,
         winner: '',
-        blueTeamBans: [],
-        redTeamBans: [],
-        blueTeamPicks: [],
-        redTeamPicks: [],
+        blueTeamBans: ['Gwen', 'Lillia', 'Nocturne', 'Viktor', 'Hwei'],
+        redTeamBans: ['Draven', 'Caitlyn', 'Yuumi', 'Corki', 'Yone'],
+        blueTeamPicks: ['Zyra', 'Ashe', 'Seraphine', 'Nasus', 'Ryze'],
+        redTeamPicks: ['Viego', 'Jhin', 'Blitzcrank', 'Sylas', 'Garen'],
         blueTeamKills: 0,
         redTeamKills: 0,
         blueTeamDeath: 0,
@@ -3213,7 +3213,7 @@ const totalMatchData: IMatch[] = [
         blueTeam: [
           {
             name: '강소연',
-            champion: '',
+            champion: 'Nasus',
             role: 'TOP',
             kill: 0,
             death: 0,
@@ -3223,7 +3223,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '네클릿',
-            champion: '',
+            champion: 'Zyra',
             role: 'JG',
             kill: 0,
             death: 0,
@@ -3233,7 +3233,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '큐베',
-            champion: '',
+            champion: 'Ryze',
             role: 'MID',
             kill: 0,
             death: 0,
@@ -3243,7 +3243,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '크캣',
-            champion: '',
+            champion: 'Ashe',
             role: 'ADC',
             kill: 0,
             death: 0,
@@ -3253,7 +3253,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '루루카',
-            champion: '',
+            champion: 'Seraphine',
             role: 'SUP',
             kill: 0,
             death: 0,
@@ -3265,7 +3265,7 @@ const totalMatchData: IMatch[] = [
         redTeam: [
           {
             name: '룩삼',
-            champion: '',
+            champion: 'Garen',
             role: 'TOP',
             kill: 0,
             death: 0,
@@ -3275,7 +3275,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '앰비션',
-            champion: '',
+            champion: 'Viego',
             role: 'JG',
             kill: 0,
             death: 0,
@@ -3285,7 +3285,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '실프',
-            champion: '',
+            champion: 'Sylas',
             role: 'MID',
             kill: 0,
             death: 0,
@@ -3295,7 +3295,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '따효니',
-            champion: '',
+            champion: 'Jhin',
             role: 'ADC',
             kill: 0,
             death: 0,
@@ -3305,7 +3305,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '라콩',
-            champion: '',
+            champion: 'Blitzcrank',
             role: 'SUP',
             kill: 0,
             death: 0,
