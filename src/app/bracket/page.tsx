@@ -29,7 +29,7 @@ export default function BracketPage() {
 
                     <div className="flex items-center justify-between">
                       <div className="flex items-center gap-1">
-                        <span className="text-xs">TBD</span>
+                        <span className="text-xs">상체파괴자</span>
                       </div>
                       <div className="text-sm font-bold">-</div>
                     </div>
@@ -52,7 +52,7 @@ export default function BracketPage() {
 
                     <div className="flex items-center justify-between">
                       <div className="flex items-center gap-1">
-                        <span className="text-xs">TBD</span>
+                        <span className="text-xs">노코멘트</span>
                       </div>
                       <div className="text-sm font-bold">-</div>
                     </div>

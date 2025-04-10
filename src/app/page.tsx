@@ -102,7 +102,7 @@ export default function Home() {
               {sortedTeams.map((team, index) => (
                 <TableRow
                   key={team.teamName}
-                  className="text-center"
+                  className={`text-center ${index === 4 && `bg-gray-300`}`}
                 >
                   <TableCell className="text-center font-medium">
                     {index + 1}

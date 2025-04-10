@@ -144,9 +144,9 @@ export const teams: ITeam[] = [
     teamName: '노코멘트',
     matchWins: 1,
     matchLosses: 2,
-    setWins: 5,
+    setWins: 6,
     setLosses: 5,
-    points: 5,
+    points: 6,
     players: [
       {
         name: '인섹',
@@ -191,7 +191,7 @@ export const teams: ITeam[] = [
     matchWins: 1,
     matchLosses: 2,
     setWins: 2,
-    setLosses: 8,
+    setLosses: 9,
     points: 2,
     players: [
       {
