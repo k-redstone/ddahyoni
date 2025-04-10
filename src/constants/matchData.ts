@@ -3699,10 +3699,16 @@ const totalMatchData: IMatch[] = [
         id: 's30',
         setNumber: 3,
         winner: '',
-        blueTeamBans: [],
-        redTeamBans: [],
-        blueTeamPicks: [],
-        redTeamPicks: [],
+        blueTeamBans: ['Aurora', 'Renata', 'Orianna', 'Mordekaiser', 'XinZhao'],
+        redTeamBans: ['Darius', 'Olaf', 'Xayah', 'Caitlyn', 'Kalista'],
+        blueTeamPicks: [
+          'MonkeyKing',
+          'Malzahar',
+          'Amumu',
+          'MissFortune',
+          'Vayne',
+        ],
+        redTeamPicks: ['Yone', 'Thresh', 'KaiSa', 'Lillia', 'Ornn'],
         blueTeamKills: 0,
         redTeamKills: 0,
         blueTeamDeath: 0,
@@ -3715,7 +3721,7 @@ const totalMatchData: IMatch[] = [
         blueTeam: [
           {
             name: '인섹',
-            champion: '',
+            champion: 'Vayne',
             role: 'TOP',
             kill: 0,
             death: 0,
@@ -3725,7 +3731,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '고수달',
-            champion: '',
+            champion: 'MonkeyKing',
             role: 'JG',
             kill: 0,
             death: 0,
@@ -3735,7 +3741,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '인간젤리',
-            champion: '',
+            champion: 'Malzahar',
             role: 'MID',
             kill: 0,
             death: 0,
@@ -3745,7 +3751,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '뱅',
-            champion: '',
+            champion: 'MissFortune',
             role: 'ADC',
             kill: 0,
             death: 0,
@@ -3755,7 +3761,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '던',
-            champion: '',
+            champion: 'Amumu',
             role: 'SUP',
             kill: 0,
             death: 0,
@@ -3767,7 +3773,7 @@ const totalMatchData: IMatch[] = [
         redTeam: [
           {
             name: '얍얍',
-            champion: '',
+            champion: 'Ornn',
             role: 'TOP',
             kill: 0,
             death: 0,
@@ -3777,7 +3783,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '휘용',
-            champion: '',
+            champion: 'Lillia',
             role: 'JG',
             kill: 0,
             death: 0,
@@ -3787,7 +3793,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '갱맘',
-            champion: '',
+            champion: 'Yone',
             role: 'MID',
             kill: 0,
             death: 0,
@@ -3797,7 +3803,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '모카형',
-            champion: '',
+            champion: 'KaiSa',
             role: 'ADC',
             kill: 0,
             death: 0,
@@ -3807,7 +3813,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '매드라이프',
-            champion: '',
+            champion: 'Thresh',
             role: 'SUP',
             kill: 0,
             death: 0,
