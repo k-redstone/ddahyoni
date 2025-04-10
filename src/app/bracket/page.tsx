@@ -45,14 +45,14 @@ export default function BracketPage() {
                   <div className="space-y-1">
                     <div className="flex items-center justify-between">
                       <div className="flex items-center gap-1">
-                        <span className="text-xs">돼굴단</span>
+                        <span className="text-xs">노코멘트</span>
                       </div>
                       <div className="text-sm font-bold">-</div>
                     </div>
 
                     <div className="flex items-center justify-between">
                       <div className="flex items-center gap-1">
-                        <span className="text-xs">노코멘트</span>
+                        <span className="text-xs">돼굴단</span>
                       </div>
                       <div className="text-sm font-bold">-</div>
                     </div>
@@ -72,7 +72,7 @@ export default function BracketPage() {
                     <div className="flex items-center justify-between">
                       <div className="flex items-center gap-1">
                         <span className="text-muted-foreground text-xs">
-                          TBD
+                          1경기 승리팀
                         </span>
                       </div>
                       <div className="text-sm font-bold">-</div>
@@ -81,7 +81,7 @@ export default function BracketPage() {
                     <div className="flex items-center justify-between">
                       <div className="flex items-center gap-1">
                         <span className="text-muted-foreground text-xs">
-                          TBD
+                          2경기 승리팀
                         </span>
                       </div>
                       <div className="text-sm font-bold">-</div>
@@ -99,7 +99,7 @@ export default function BracketPage() {
                     <div className="flex items-center justify-between">
                       <div className="flex items-center gap-1">
                         <span className="text-muted-foreground text-xs">
-                          TBD
+                          1경기 패배팀
                         </span>
                       </div>
                       <div className="text-sm font-bold">-</div>
@@ -108,7 +108,7 @@ export default function BracketPage() {
                     <div className="flex items-center justify-between">
                       <div className="flex items-center gap-1">
                         <span className="text-muted-foreground text-xs">
-                          TBD
+                          2경기 패배팀
                         </span>
                       </div>
                       <div className="text-sm font-bold">-</div>
@@ -129,7 +129,7 @@ export default function BracketPage() {
                     <div className="flex items-center justify-between">
                       <div className="flex items-center gap-1">
                         <span className="text-muted-foreground text-xs">
-                          TBD
+                          승자조 패배팀
                         </span>
                       </div>
                       <div className="text-sm font-bold">-</div>
@@ -138,7 +138,7 @@ export default function BracketPage() {
                     <div className="flex items-center justify-between">
                       <div className="flex items-center gap-1">
                         <span className="text-muted-foreground text-xs">
-                          TBD
+                          패자조 승리팀
                         </span>
                       </div>
                       <div className="text-sm font-bold">-</div>
@@ -164,14 +164,18 @@ export default function BracketPage() {
                 <div className="space-y-2">
                   <div className="flex items-center justify-between">
                     <div className="flex items-center gap-1">
-                      <span className="text-muted-foreground text-xs">TBD</span>
+                      <span className="text-muted-foreground text-xs">
+                        승자조 승리팀
+                      </span>
                     </div>
                     <div className="font-bold">-</div>
                   </div>
 
                   <div className="flex items-center justify-between">
                     <div className="flex items-center gap-1">
-                      <span className="text-muted-foreground text-xs">TBD</span>
+                      <span className="text-muted-foreground text-xs">
+                        최종 진출전 승리팀
+                      </span>
                     </div>
                     <div className="font-bold">-</div>
                   </div>
