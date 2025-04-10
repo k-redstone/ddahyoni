@@ -23,7 +23,7 @@ export default function BracketPage() {
                     <div className="flex items-center justify-between">
                       <div className="flex items-center gap-1">
                         <span className="text-muted-foreground text-xs">
-                          TBD
+                          남성
                         </span>
                       </div>
                       <div className="text-sm font-bold">-</div>
@@ -50,7 +50,7 @@ export default function BracketPage() {
                     <div className="flex items-center justify-between">
                       <div className="flex items-center gap-1">
                         <span className="text-muted-foreground text-xs">
-                          TBD
+                          돼굴단
                         </span>
                       </div>
                       <div className="text-sm font-bold">-</div>
