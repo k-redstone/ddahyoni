@@ -3708,7 +3708,7 @@ const totalMatchData: IMatch[] = [
           'MissFortune',
           'Vayne',
         ],
-        redTeamPicks: ['Yone', 'Thresh', 'KaiSa', 'Lillia', 'Ornn'],
+        redTeamPicks: ['Yone', 'Thresh', 'Kaisa', 'Lillia', 'Ornn'],
         blueTeamKills: 0,
         redTeamKills: 0,
         blueTeamDeath: 0,
@@ -3803,7 +3803,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '모카형',
-            champion: 'KaiSa',
+            champion: 'Kaisa',
             role: 'ADC',
             kill: 0,
             death: 0,
