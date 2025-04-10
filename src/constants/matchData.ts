@@ -3068,17 +3068,17 @@ const totalMatchData: IMatch[] = [
     redTeamScore: 0,
     date: '2025-04-10',
     completed: false,
-    progress: false,
+    progress: true,
     stage: '리그전',
     sets: [
       {
         id: 's25',
         setNumber: 1,
         winner: '',
-        blueTeamBans: [],
-        redTeamBans: [],
-        blueTeamPicks: [],
-        redTeamPicks: [],
+        blueTeamBans: ['Gwen', 'Zyra', 'Lillia', 'Viktor', 'Yone'],
+        redTeamBans: ['Draven', 'Caitlyn', 'Yuumi', 'Nocturne', 'Illaoi'],
+        blueTeamPicks: ['Lulu', 'Jinx', 'Ahri', 'XinZhao', 'Ambessa'],
+        redTeamPicks: ['Vi', 'Nautilus', 'Tristana', 'Sion', 'Orianna'],
         blueTeamKills: 0,
         redTeamKills: 0,
         blueTeamDeath: 0,
@@ -3091,7 +3091,7 @@ const totalMatchData: IMatch[] = [
         blueTeam: [
           {
             name: '강소연',
-            champion: '',
+            champion: 'Ambessa',
             role: 'TOP',
             kill: 0,
             death: 0,
@@ -3101,7 +3101,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '네클릿',
-            champion: '',
+            champion: 'XinZhao',
             role: 'JG',
             kill: 0,
             death: 0,
@@ -3111,7 +3111,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '큐베',
-            champion: '',
+            champion: 'Ahri',
             role: 'MID',
             kill: 0,
             death: 0,
@@ -3121,7 +3121,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '크캣',
-            champion: '',
+            champion: 'Jinx',
             role: 'ADC',
             kill: 0,
             death: 0,
@@ -3131,7 +3131,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '루루카',
-            champion: '',
+            champion: 'Lulu',
             role: 'SUP',
             kill: 0,
             death: 0,
@@ -3143,7 +3143,7 @@ const totalMatchData: IMatch[] = [
         redTeam: [
           {
             name: '룩삼',
-            champion: '',
+            champion: 'Sion',
             role: 'TOP',
             kill: 0,
             death: 0,
@@ -3153,7 +3153,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '앰비션',
-            champion: '',
+            champion: 'Vi',
             role: 'JG',
             kill: 0,
             death: 0,
@@ -3163,7 +3163,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '실프',
-            champion: '',
+            champion: 'Orianna',
             role: 'MID',
             kill: 0,
             death: 0,
@@ -3173,7 +3173,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '따효니',
-            champion: '',
+            champion: 'Tristana',
             role: 'ADC',
             kill: 0,
             death: 0,
@@ -3183,7 +3183,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '라콩',
-            champion: '',
+            champion: 'Nautilus',
             role: 'SUP',
             kill: 0,
             death: 0,
