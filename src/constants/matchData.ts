@@ -3455,10 +3455,16 @@ const totalMatchData: IMatch[] = [
         id: 's28',
         setNumber: 1,
         winner: '',
-        blueTeamBans: [],
-        redTeamBans: [],
-        blueTeamPicks: [],
-        redTeamPicks: [],
+        blueTeamBans: [
+          'Aurora',
+          'RenataGlasc',
+          'Mordekaiser',
+          'Braum',
+          'Taliyah',
+        ],
+        redTeamBans: ['Olaf', 'Darius', 'Yone', 'Jinx', 'Leona'],
+        blueTeamPicks: ['Ambessa', 'Ahri', 'DrMundo', 'Lucian', 'Nautilus'],
+        redTeamPicks: ['Sion', 'Vi', 'Ezreal', 'Rakan', 'Cassiopeia'],
         blueTeamKills: 0,
         redTeamKills: 0,
         blueTeamDeath: 0,
@@ -3471,7 +3477,7 @@ const totalMatchData: IMatch[] = [
         blueTeam: [
           {
             name: '인섹',
-            champion: '',
+            champion: 'Ambessa',
             role: 'TOP',
             kill: 0,
             death: 0,
@@ -3481,7 +3487,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '고수달',
-            champion: '',
+            champion: 'DrMundo',
             role: 'JG',
             kill: 0,
             death: 0,
@@ -3491,7 +3497,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '인간젤리',
-            champion: '',
+            champion: 'Ahri',
             role: 'MID',
             kill: 0,
             death: 0,
@@ -3501,7 +3507,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '뱅',
-            champion: '',
+            champion: 'Lucian',
             role: 'ADC',
             kill: 0,
             death: 0,
@@ -3511,7 +3517,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '던',
-            champion: '',
+            champion: 'Nautilus',
             role: 'SUP',
             kill: 0,
             death: 0,
@@ -3523,7 +3529,7 @@ const totalMatchData: IMatch[] = [
         redTeam: [
           {
             name: '얍얍',
-            champion: '',
+            champion: 'Sion',
             role: 'TOP',
             kill: 0,
             death: 0,
@@ -3533,7 +3539,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '휘용',
-            champion: '',
+            champion: 'Vi',
             role: 'JG',
             kill: 0,
             death: 0,
@@ -3543,7 +3549,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '갱맘',
-            champion: '',
+            champion: 'Cassiopeia',
             role: 'MID',
             kill: 0,
             death: 0,
@@ -3553,7 +3559,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '모카형',
-            champion: '',
+            champion: 'Ezreal',
             role: 'ADC',
             kill: 0,
             death: 0,
@@ -3563,7 +3569,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '매드라이프',
-            champion: '',
+            champion: 'Rakan',
             role: 'SUP',
             kill: 0,
             death: 0,
