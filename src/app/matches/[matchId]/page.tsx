@@ -7,13 +7,16 @@ import { use } from 'react'
 import { Badge } from '@/components/ui/badge'
 import { Card, CardContent } from '@/components/ui/card'
 import totalMatchData from '@/constants/matchData'
+import playoffMatchData from '@/constants/playoffData'
 import { GAPageView } from '@/hooks/useGAPageViesw'
 
 type Params = Promise<{ matchId: string }>
 
 export default function MatchDetailPage(props: { params: Params }) {
   const params = use(props.params)
-  const match = totalMatchData.find((data) => data.id === params.matchId)
+  const match = [...totalMatchData, ...playoffMatchData].find(
+    (data) => data.id === params.matchId,
+  )
 
   if (!match) {
     notFound()

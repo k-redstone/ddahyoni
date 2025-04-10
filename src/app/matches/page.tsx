@@ -3,10 +3,11 @@ import Link from 'next/link'
 import { Badge } from '@/components/ui/badge'
 import { Card, CardContent } from '@/components/ui/card'
 import totalMatchData from '@/constants/matchData'
+import playoffMatchData from '@/constants/playoffData'
 import { GAPageView } from '@/hooks/useGAPageViesw'
 
 export default function MatchesPage() {
-  const matchesByDate = totalMatchData.reduce(
+  const matchesByDate = [...totalMatchData, ...playoffMatchData].reduce(
     (acc, match) => {
       if (!acc[match.date]) {
         acc[match.date] = []
