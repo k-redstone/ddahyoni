@@ -33,7 +33,7 @@ export default function Home() {
           Current Stage:{' '}
           <span className="ml-1 font-bold">4/6 ~ 4/10 리그전</span>
         </Badge>
-        <span>치킨 시켜 먹느라 업데이트 느릴 수 있어요.</span>
+        <div>치킨 먹느라 업데이트 느릴 수 있어요.</div>
       </div>
 
       {/* 팀 소개 */}
