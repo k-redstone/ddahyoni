@@ -3455,13 +3455,7 @@ const totalMatchData: IMatch[] = [
         id: 's28',
         setNumber: 1,
         winner: '노코멘트',
-        blueTeamBans: [
-          'Aurora',
-          'RenataGlasc',
-          'Mordekaiser',
-          'Braum',
-          'Taliyah',
-        ],
+        blueTeamBans: ['Aurora', 'Renata', 'Mordekaiser', 'Braum', 'Taliyah'],
         redTeamBans: ['Olaf', 'Darius', 'Yone', 'Jinx', 'Leona'],
         blueTeamPicks: ['Ambessa', 'Ahri', 'DrMundo', 'Lucian', 'Nautilus'],
         redTeamPicks: ['Sion', 'Vi', 'Ezreal', 'Rakan', 'Cassiopeia'],
@@ -3583,10 +3577,10 @@ const totalMatchData: IMatch[] = [
         id: 's29',
         setNumber: 2,
         winner: '',
-        blueTeamBans: [],
-        redTeamBans: [],
-        blueTeamPicks: [],
-        redTeamPicks: [],
+        blueTeamBans: ['Aurora', 'Renata', 'Orianna', 'Mordekaiser', 'Camille'],
+        redTeamBans: ['Olaf', 'Darius', 'Yone', 'Ryze', 'Aatrox'],
+        blueTeamPicks: ['Nocturne', 'Jinx', 'Leona', 'Gwen', 'AurelionSol'],
+        redTeamPicks: ['Sejuani', 'Braum', 'Ziggs', 'Tristana', 'Nasus'],
         blueTeamKills: 0,
         redTeamKills: 0,
         blueTeamDeath: 0,
@@ -3599,7 +3593,7 @@ const totalMatchData: IMatch[] = [
         blueTeam: [
           {
             name: '인섹',
-            champion: '',
+            champion: 'Gwen',
             role: 'TOP',
             kill: 0,
             death: 0,
@@ -3609,7 +3603,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '고수달',
-            champion: '',
+            champion: 'Nocturne',
             role: 'JG',
             kill: 0,
             death: 0,
@@ -3619,7 +3613,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '인간젤리',
-            champion: '',
+            champion: 'AurelionSol',
             role: 'MID',
             kill: 0,
             death: 0,
@@ -3629,7 +3623,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '뱅',
-            champion: '',
+            champion: 'Jinx',
             role: 'ADC',
             kill: 0,
             death: 0,
@@ -3639,7 +3633,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '던',
-            champion: '',
+            champion: 'Leona',
             role: 'SUP',
             kill: 0,
             death: 0,
@@ -3651,7 +3645,7 @@ const totalMatchData: IMatch[] = [
         redTeam: [
           {
             name: '얍얍',
-            champion: '',
+            champion: 'Nasus',
             role: 'TOP',
             kill: 0,
             death: 0,
@@ -3661,7 +3655,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '휘용',
-            champion: '',
+            champion: 'Sejuani',
             role: 'JG',
             kill: 0,
             death: 0,
@@ -3671,7 +3665,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '갱맘',
-            champion: '',
+            champion: 'Tristana',
             role: 'MID',
             kill: 0,
             death: 0,
@@ -3681,7 +3675,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '모카형',
-            champion: '',
+            champion: 'Ziggs',
             role: 'ADC',
             kill: 0,
             death: 0,
@@ -3691,7 +3685,7 @@ const totalMatchData: IMatch[] = [
           },
           {
             name: '매드라이프',
-            champion: '',
+            champion: 'Braum',
             role: 'SUP',
             kill: 0,
             death: 0,
