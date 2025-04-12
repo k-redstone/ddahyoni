@@ -790,7 +790,7 @@ const playoffMatchData: IMatch[] = [
         setNumber: 2,
         winner: '',
         blueTeamBans: ['Draven', 'Caitlyn', 'Yuumi', 'Orianna', 'Ahri'],
-        redTeamBans: ['Gwen', 'Lillia', 'Xin Zhao', 'Garen', 'Viego'],
+        redTeamBans: ['Gwen', 'Lillia', 'XinZhao', 'Garen', 'Viego'],
         blueTeamPicks: ['Viktor', 'Jhin', 'Blitzcrank', 'MonkeyKing', 'Singed'],
         redTeamPicks: ['Nocturne', 'Jinx', 'Milio', 'Vladimir', 'Olaf'],
         blueTeamKills: 0,
