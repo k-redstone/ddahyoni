@@ -24,7 +24,7 @@ export default function BracketPage() {
                       <div className="flex items-center gap-1">
                         <span className="text-xs">남성</span>
                       </div>
-                      <div className="text-sm font-bold">1</div>
+                      <div className="text-sm font-bold">2</div>
                     </div>
 
                     <div className="flex items-center justify-between">
@@ -72,7 +72,7 @@ export default function BracketPage() {
                     <div className="flex items-center justify-between">
                       <div className="flex items-center gap-1">
                         <span className="text-muted-foreground text-xs">
-                          1경기 승리팀
+                          남성
                         </span>
                       </div>
                       <div className="text-sm font-bold">-</div>
@@ -99,7 +99,7 @@ export default function BracketPage() {
                     <div className="flex items-center justify-between">
                       <div className="flex items-center gap-1">
                         <span className="text-muted-foreground text-xs">
-                          1경기 패배팀
+                          상체파괴자
                         </span>
                       </div>
                       <div className="text-sm font-bold">-</div>
