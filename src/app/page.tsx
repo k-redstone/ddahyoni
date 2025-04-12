@@ -390,12 +390,23 @@ export default function Home() {
                       <div className="text-muted-foreground text-xs">
                         #{match.matchNumber} • {match.date}
                       </div>
-                      <Badge
-                        variant="outline"
-                        className="text-xs"
-                      >
-                        플레이오프
-                      </Badge>
+                      <div className="flex items-center gap-2.5">
+                        <Badge
+                          variant="outline"
+                          className="text-xs"
+                        >
+                          플레이오프
+                        </Badge>
+                        <div className="text-xs">
+                          {match.progress ? (
+                            <span className="text-red-500">진행중</span>
+                          ) : match.completed ? (
+                            <span className="text-green-600">완료</span>
+                          ) : (
+                            <span className="text-blue-600">예정</span>
+                          )}
+                        </div>
+                      </div>
                     </div>
                     <div className="flex items-center justify-between">
                       <div className="flex items-center gap-1">
