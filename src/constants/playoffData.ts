@@ -239,7 +239,7 @@ const playoffMatchData: IMatch[] = [
             death: 3,
             assist: 2,
             damage: 19642,
-            gold: 0,
+            gold: 8950,
           },
           {
             name: '러너',
@@ -922,7 +922,7 @@ const playoffMatchData: IMatch[] = [
     stage: '플레이오프',
     sets: [
       {
-        id: 's28',
+        id: 's38',
         setNumber: 1,
         winner: '',
         blueTeamBans: [],
