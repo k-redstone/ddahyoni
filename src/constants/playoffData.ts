@@ -915,7 +915,7 @@ const playoffMatchData: IMatch[] = [
     blueTeam: '상체파괴자',
     redTeam: '노코멘트',
     blueTeamScore: 0,
-    redTeamScore: 0,
+    redTeamScore: 1,
     date: '2025-04-12',
     completed: false,
     progress: true,
