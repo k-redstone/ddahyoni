@@ -124,7 +124,7 @@ export default function Home() {
         </CardContent>
       </Card>
 
-      <Card>
+      <Card className="mb-6">
         <CardContent>
           <h2 className="mb-3 text-xl font-bold">플레이오프 상황판</h2>
           <div className="overflow-x-auto pb-4">
@@ -143,14 +143,16 @@ export default function Home() {
                       <div className="space-y-1">
                         <div className="flex items-center justify-between">
                           <div className="flex items-center gap-1">
-                            <span className="text-xs">남성</span>
+                            <span className="text-xs font-bold">남성</span>
                           </div>
                           <div className="text-sm font-bold">-</div>
                         </div>
 
                         <div className="flex items-center justify-between">
                           <div className="flex items-center gap-1">
-                            <span className="text-xs">상체파괴자</span>
+                            <span className="text-xs font-bold">
+                              상체파괴자
+                            </span>
                           </div>
                           <div className="text-sm font-bold">-</div>
                         </div>
@@ -166,14 +168,14 @@ export default function Home() {
                       <div className="space-y-1">
                         <div className="flex items-center justify-between">
                           <div className="flex items-center gap-1">
-                            <span className="text-xs">노코멘트</span>
+                            <span className="text-xs font-bold">노코멘트</span>
                           </div>
                           <div className="text-sm font-bold">-</div>
                         </div>
 
                         <div className="flex items-center justify-between">
                           <div className="flex items-center gap-1">
-                            <span className="text-xs">돼굴단</span>
+                            <span className="text-xs font-bold">돼굴단</span>
                           </div>
                           <div className="text-sm font-bold">-</div>
                         </div>
@@ -194,7 +196,7 @@ export default function Home() {
                       <div className="space-y-1">
                         <div className="flex items-center justify-between">
                           <div className="flex items-center gap-1">
-                            <span className="text-muted-foreground text-xs">
+                            <span className="text-muted-foreground text-xs font-bold">
                               1경기 승리팀
                             </span>
                           </div>
@@ -203,7 +205,7 @@ export default function Home() {
 
                         <div className="flex items-center justify-between">
                           <div className="flex items-center gap-1">
-                            <span className="text-muted-foreground text-xs">
+                            <span className="text-muted-foreground text-xs font-bold">
                               2경기 승리팀
                             </span>
                           </div>
@@ -221,7 +223,7 @@ export default function Home() {
                       <div className="space-y-1">
                         <div className="flex items-center justify-between">
                           <div className="flex items-center gap-1">
-                            <span className="text-muted-foreground text-xs">
+                            <span className="text-muted-foreground text-xs font-bold">
                               1경기 패배팀
                             </span>
                           </div>
@@ -230,7 +232,7 @@ export default function Home() {
 
                         <div className="flex items-center justify-between">
                           <div className="flex items-center gap-1">
-                            <span className="text-muted-foreground text-xs">
+                            <span className="text-muted-foreground text-xs font-bold">
                               2경기 패배팀
                             </span>
                           </div>
@@ -253,7 +255,7 @@ export default function Home() {
                       <div className="space-y-1">
                         <div className="flex items-center justify-between">
                           <div className="flex items-center gap-1">
-                            <span className="text-muted-foreground text-xs">
+                            <span className="text-muted-foreground text-xs font-bold">
                               승자조 패배팀
                             </span>
                           </div>
@@ -262,7 +264,7 @@ export default function Home() {
 
                         <div className="flex items-center justify-between">
                           <div className="flex items-center gap-1">
-                            <span className="text-muted-foreground text-xs">
+                            <span className="text-muted-foreground text-xs font-bold">
                               패자조 승리팀
                             </span>
                           </div>
@@ -289,7 +291,7 @@ export default function Home() {
                     <div className="space-y-2">
                       <div className="flex items-center justify-between">
                         <div className="flex items-center gap-1">
-                          <span className="text-muted-foreground text-xs">
+                          <span className="text-muted-foreground text-xs font-bold">
                             승자조 승리팀
                           </span>
                         </div>
@@ -298,7 +300,7 @@ export default function Home() {
 
                       <div className="flex items-center justify-between">
                         <div className="flex items-center gap-1">
-                          <span className="text-muted-foreground text-xs">
+                          <span className="text-muted-foreground text-xs font-bold">
                             최종 진출전 승리팀
                           </span>
                         </div>
