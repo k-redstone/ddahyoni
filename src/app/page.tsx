@@ -32,7 +32,7 @@ export default function Home() {
           className="px-3 py-1 text-sm"
         >
           Current Stage:{' '}
-          <span className="ml-1 font-bold">4/6 ~ 4/10 리그전</span>
+          <span className="ml-1 font-bold">4/12 ~ 4/13 플레이오프</span>
         </Badge>
       </div>
 
