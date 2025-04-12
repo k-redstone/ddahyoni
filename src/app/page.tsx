@@ -223,7 +223,7 @@ export default function Home() {
                               상체파괴자
                             </span>
                           </div>
-                          <div className="text-sm font-bold">0</div>
+                          <div className="text-sm font-bold">1</div>
                         </div>
 
                         <div className="flex items-center justify-between">
