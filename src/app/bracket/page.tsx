@@ -103,7 +103,7 @@ export default function BracketPage() {
                       <div className="flex items-center gap-1">
                         <span className="text-xs">노코멘트</span>
                       </div>
-                      <div className="text-sm font-bold">1</div>
+                      <div className="text-sm font-bold">2</div>
                     </div>
                   </div>
                 </CardContent>
@@ -127,9 +127,7 @@ export default function BracketPage() {
 
                     <div className="flex items-center justify-between">
                       <div className="flex items-center gap-1">
-                        <span className="text-muted-foreground text-xs">
-                          패자조 승리팀
-                        </span>
+                        <span className="text-xs">노코멘트</span>
                       </div>
                       <div className="text-sm font-bold">-</div>
                     </div>
