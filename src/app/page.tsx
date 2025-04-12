@@ -145,7 +145,7 @@ export default function Home() {
                           <div className="flex items-center gap-1">
                             <span className="text-xs font-bold">남성</span>
                           </div>
-                          <div className="text-sm font-bold">-</div>
+                          <div className="text-sm font-bold">1</div>
                         </div>
 
                         <div className="flex items-center justify-between">
@@ -154,7 +154,7 @@ export default function Home() {
                               상체파괴자
                             </span>
                           </div>
-                          <div className="text-sm font-bold">-</div>
+                          <div className="text-sm font-bold">0</div>
                         </div>
                       </div>
                     </CardContent>
