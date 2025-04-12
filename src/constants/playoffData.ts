@@ -667,10 +667,10 @@ const playoffMatchData: IMatch[] = [
         id: 's36',
         setNumber: 1,
         winner: '',
-        blueTeamBans: [],
-        redTeamBans: [],
-        blueTeamPicks: [],
-        redTeamPicks: [],
+        blueTeamBans: ['Draven', 'Caitlyn', 'Yuumi', 'Jinx', 'Illaoi'],
+        redTeamBans: ['Gwen', 'Lillia', 'Zyra', 'Nautilus', 'Blitzcrank'],
+        blueTeamPicks: ['Vi', 'Sion', 'Tristana', 'Hwei', 'Rakan'],
+        redTeamPicks: ['Yone', 'Sejuani', 'Lulu', 'Corki', 'Ambessa'],
         blueTeamKills: 0,
         redTeamKills: 0,
         blueTeamDeath: 0,
@@ -683,7 +683,7 @@ const playoffMatchData: IMatch[] = [
         blueTeam: [
           {
             name: '룩삼',
-            champion: '',
+            champion: 'Sion',
             role: 'TOP',
             kill: 0,
             death: 0,
@@ -693,7 +693,7 @@ const playoffMatchData: IMatch[] = [
           },
           {
             name: '앰비션',
-            champion: '',
+            champion: 'Vi',
             role: 'JG',
             kill: 0,
             death: 0,
@@ -703,7 +703,7 @@ const playoffMatchData: IMatch[] = [
           },
           {
             name: '실프',
-            champion: '',
+            champion: 'Hwei',
             role: 'MID',
             kill: 0,
             death: 0,
@@ -713,7 +713,7 @@ const playoffMatchData: IMatch[] = [
           },
           {
             name: '따효니',
-            champion: '',
+            champion: 'Tristana',
             role: 'ADC',
             kill: 0,
             death: 0,
@@ -723,7 +723,7 @@ const playoffMatchData: IMatch[] = [
           },
           {
             name: '라콩',
-            champion: '',
+            champion: 'Rakan',
             role: 'SUP',
             kill: 0,
             death: 0,
@@ -735,7 +735,7 @@ const playoffMatchData: IMatch[] = [
         redTeam: [
           {
             name: '강소연',
-            champion: '',
+            champion: 'Ambessa',
             role: 'TOP',
             kill: 0,
             death: 0,
@@ -745,7 +745,7 @@ const playoffMatchData: IMatch[] = [
           },
           {
             name: '네클릿',
-            champion: '',
+            champion: 'Sejuani',
             role: 'JG',
             kill: 0,
             death: 0,
@@ -755,7 +755,7 @@ const playoffMatchData: IMatch[] = [
           },
           {
             name: '큐베',
-            champion: '',
+            champion: 'Yone',
             role: 'MID',
             kill: 0,
             death: 0,
@@ -765,7 +765,7 @@ const playoffMatchData: IMatch[] = [
           },
           {
             name: '크캣',
-            champion: '',
+            champion: 'Corki',
             role: 'ADC',
             kill: 0,
             death: 0,
@@ -775,7 +775,7 @@ const playoffMatchData: IMatch[] = [
           },
           {
             name: '루루카',
-            champion: '',
+            champion: 'Lulu',
             role: 'SUP',
             kill: 0,
             death: 0,
