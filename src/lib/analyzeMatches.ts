@@ -1,4 +1,5 @@
 import totalMatchData from '@/constants/matchData'
+import playoffMatchData from '@/constants/playoffData'
 
 type TeamAnalysis = {
   pickStats: Record<string, ChampionStats>
@@ -29,8 +30,8 @@ type Output = {
 
 function analyzeMatches(): Output {
   const teamStats: Record<string, TeamAnalysis> = {}
-
-  totalMatchData.forEach((match) => {
+  const totalData = [...totalMatchData, ...playoffMatchData]
+  totalData.forEach((match) => {
     match.sets.forEach((set) => {
       const blueTeam = match.blueTeam
       const redTeam = match.redTeam
