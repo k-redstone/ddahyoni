@@ -10,17 +10,17 @@ const playoffMatchData: IMatch[] = [
     redTeamScore: 0,
     date: '2025-04-12',
     completed: false,
-    progress: false,
+    progress: true,
     stage: '플레이오프',
     sets: [
       {
         id: 's31',
         setNumber: 1,
         winner: '',
-        blueTeamBans: [],
-        redTeamBans: [],
-        blueTeamPicks: [],
-        redTeamPicks: [],
+        blueTeamBans: ['Ambessa', 'Lucian', 'Gwen', 'Ashe', 'Nautilus'],
+        redTeamBans: ['Hwei', 'Tristana', 'Vi', 'Rakan', 'Blitzcrank'],
+        blueTeamPicks: ['Yone', 'Zyra', 'Sion', 'Jhin', 'Alistar'],
+        redTeamPicks: ['Jayce', 'Lissandra', 'Nocturne', 'Varus', 'Leona'],
         blueTeamKills: 0,
         redTeamKills: 0,
         blueTeamDeath: 0,
@@ -33,7 +33,7 @@ const playoffMatchData: IMatch[] = [
         blueTeam: [
           {
             name: '룩삼',
-            champion: '',
+            champion: 'Sion',
             role: 'TOP',
             kill: 0,
             death: 0,
@@ -43,7 +43,7 @@ const playoffMatchData: IMatch[] = [
           },
           {
             name: '앰비션',
-            champion: '',
+            champion: 'Zyra',
             role: 'JG',
             kill: 0,
             death: 0,
@@ -53,7 +53,7 @@ const playoffMatchData: IMatch[] = [
           },
           {
             name: '실프',
-            champion: '',
+            champion: 'Yone',
             role: 'MID',
             kill: 0,
             death: 0,
@@ -63,7 +63,7 @@ const playoffMatchData: IMatch[] = [
           },
           {
             name: '따효니',
-            champion: '',
+            champion: 'Jhin',
             role: 'ADC',
             kill: 0,
             death: 0,
@@ -73,7 +73,7 @@ const playoffMatchData: IMatch[] = [
           },
           {
             name: '라콩',
-            champion: '',
+            champion: 'Alistar',
             role: 'SUP',
             kill: 0,
             death: 0,
@@ -85,7 +85,7 @@ const playoffMatchData: IMatch[] = [
         redTeam: [
           {
             name: '플레임',
-            champion: '',
+            champion: 'Jayce',
             role: 'TOP',
             kill: 0,
             death: 0,
@@ -95,7 +95,7 @@ const playoffMatchData: IMatch[] = [
           },
           {
             name: '소우릎',
-            champion: '',
+            champion: 'Nocturne',
             role: 'JG',
             kill: 0,
             death: 0,
@@ -105,7 +105,7 @@ const playoffMatchData: IMatch[] = [
           },
           {
             name: '헤징',
-            champion: '',
+            champion: 'Lissandra',
             role: 'MID',
             kill: 0,
             death: 0,
@@ -115,7 +115,7 @@ const playoffMatchData: IMatch[] = [
           },
           {
             name: '러너',
-            champion: '',
+            champion: 'Varus',
             role: 'ADC',
             kill: 0,
             death: 0,
@@ -125,7 +125,7 @@ const playoffMatchData: IMatch[] = [
           },
           {
             name: '눈꽃',
-            champion: '',
+            champion: 'Leona',
             role: 'SUP',
             kill: 0,
             death: 0,
