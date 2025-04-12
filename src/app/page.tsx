@@ -177,7 +177,7 @@ export default function Home() {
                           <div className="flex items-center gap-1">
                             <span className="text-xs font-bold">돼굴단</span>
                           </div>
-                          <div className="text-sm font-bold">0</div>
+                          <div className="text-sm font-bold">1</div>
                         </div>
                       </div>
                     </CardContent>
