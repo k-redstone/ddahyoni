@@ -1215,7 +1215,7 @@ const playoffMatchData: IMatch[] = [
           },
           {
             name: '러너',
-            champion: 'Tristana',
+            champion: 'Sivir',
             role: 'ADC',
             kill: 2,
             death: 4,
