@@ -656,7 +656,7 @@ const playoffMatchData: IMatch[] = [
     matchNumber: 13,
     blueTeam: '남성',
     redTeam: '돼굴단',
-    blueTeamScore: 1,
+    blueTeamScore: 2,
     redTeamScore: 0,
     date: '2025-04-12',
     completed: true,
