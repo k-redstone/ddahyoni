@@ -154,16 +154,14 @@ export default function BracketPage() {
                     <div className="flex items-center gap-1">
                       <span className="text-xs">남성</span>
                     </div>
-                    <div className="font-bold">-</div>
+                    <div className="font-bold">0</div>
                   </div>
 
                   <div className="flex items-center justify-between">
                     <div className="flex items-center gap-1">
-                      <span className="text-muted-foreground text-xs">
-                        최종 진출전 승리팀
-                      </span>
+                      <span className="text-xs">노코멘트</span>
                     </div>
-                    <div className="font-bold">-</div>
+                    <div className="font-bold">0</div>
                   </div>
                 </div>
               </CardContent>
