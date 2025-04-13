@@ -1701,7 +1701,7 @@ const playoffMatchData: IMatch[] = [
         blueTeam: [
           {
             name: '룩삼',
-            champion: 'Vi',
+            champion: '',
             role: 'TOP',
             kill: 0,
             death: 0,
@@ -1711,7 +1711,7 @@ const playoffMatchData: IMatch[] = [
           },
           {
             name: '앰비션',
-            champion: 'Vi',
+            champion: '',
             role: 'JG',
             kill: 0,
             death: 0,
@@ -1721,7 +1721,7 @@ const playoffMatchData: IMatch[] = [
           },
           {
             name: '실프',
-            champion: 'Ziggs',
+            champion: '',
             role: 'MID',
             kill: 0,
             death: 0,
@@ -1731,7 +1731,7 @@ const playoffMatchData: IMatch[] = [
           },
           {
             name: '따효니',
-            champion: 'Ashe',
+            champion: '',
             role: 'ADC',
             kill: 0,
             death: 0,
@@ -1741,7 +1741,7 @@ const playoffMatchData: IMatch[] = [
           },
           {
             name: '라콩',
-            champion: 'Rell',
+            champion: '',
             role: 'SUP',
             kill: 0,
             death: 0,
@@ -1823,7 +1823,7 @@ const playoffMatchData: IMatch[] = [
         blueTeam: [
           {
             name: '룩삼',
-            champion: 'Vi',
+            champion: '',
             role: 'TOP',
             kill: 0,
             death: 0,
@@ -1833,7 +1833,7 @@ const playoffMatchData: IMatch[] = [
           },
           {
             name: '앰비션',
-            champion: 'Vi',
+            champion: '',
             role: 'JG',
             kill: 0,
             death: 0,
@@ -1843,7 +1843,7 @@ const playoffMatchData: IMatch[] = [
           },
           {
             name: '실프',
-            champion: 'Ziggs',
+            champion: '',
             role: 'MID',
             kill: 0,
             death: 0,
@@ -1853,7 +1853,7 @@ const playoffMatchData: IMatch[] = [
           },
           {
             name: '따효니',
-            champion: 'Ashe',
+            champion: '',
             role: 'ADC',
             kill: 0,
             death: 0,
@@ -1863,7 +1863,7 @@ const playoffMatchData: IMatch[] = [
           },
           {
             name: '라콩',
-            champion: 'Rell',
+            champion: '',
             role: 'SUP',
             kill: 0,
             death: 0,
@@ -1945,7 +1945,7 @@ const playoffMatchData: IMatch[] = [
         blueTeam: [
           {
             name: '룩삼',
-            champion: 'Vi',
+            champion: '',
             role: 'TOP',
             kill: 0,
             death: 0,
@@ -1955,7 +1955,7 @@ const playoffMatchData: IMatch[] = [
           },
           {
             name: '앰비션',
-            champion: 'Vi',
+            champion: '',
             role: 'JG',
             kill: 0,
             death: 0,
@@ -1965,7 +1965,7 @@ const playoffMatchData: IMatch[] = [
           },
           {
             name: '실프',
-            champion: 'Ziggs',
+            champion: '',
             role: 'MID',
             kill: 0,
             death: 0,
@@ -1975,7 +1975,7 @@ const playoffMatchData: IMatch[] = [
           },
           {
             name: '따효니',
-            champion: 'Ashe',
+            champion: '',
             role: 'ADC',
             kill: 0,
             death: 0,
@@ -1985,7 +1985,7 @@ const playoffMatchData: IMatch[] = [
           },
           {
             name: '라콩',
-            champion: 'Rell',
+            champion: '',
             role: 'SUP',
             kill: 0,
             death: 0,
