@@ -290,7 +290,7 @@ export default function Home() {
                         <div className="flex items-center gap-1">
                           <span className="text-xs font-bold">노코멘트</span>
                         </div>
-                        <div className="font-bold">2</div>
+                        <div className="font-bold">3</div>
                       </div>
                     </div>
                   </CardContent>
